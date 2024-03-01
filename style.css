@@ -1,0 +1,446 @@
+/* start global styles */
+
+* {
+  padding: 0;
+  margin: 0;
+  block-size: border-box;
+}
+
+body {
+  font-family: "Alegreya Sans";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 80vw;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+}
+
+.icon.light {
+  background-color: #fff;
+  border: 1px solid #00000026;
+}
+.icon.dark {
+  background-color: #8e7754;
+}
+
+.p-w {
+  width: 100%;
+}
+
+/* end global styles */
+
+/* start landing section */
+.landing {
+  height: 90vh;
+  background-image: url("images/drew-coffman-1872.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+
+.landing .container {
+  height: 100%;
+}
+
+/* start navbar */
+.landing .navbar {
+  height: 90px;
+}
+/* start logo */
+.landing .navbar .logo {
+  display: inline-block;
+  height: 48px;
+  margin: 21px 0;
+}
+.landing .navbar .logo img {
+  height: 100%;
+}
+/* end logo */
+/* start nav  */
+.landing .navbar .nav {
+  float: right;
+  height: 100%;
+  display: block;
+}
+.landing .navbar .nav li {
+  display: inline-block;
+  margin-left: 20px;
+  color: #fff;
+  height: 100%;
+  padding: 0 5px;
+}
+
+.landing .navbar .nav li:hover {
+  color: #e0c690;
+}
+
+.landing .navbar .nav li.active {
+  border-top: 3px solid #ae9768;
+}
+.landing .navbar .nav li a {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 35px 0;
+}
+/* end nav */
+/* end navbar */
+
+/* start heading  */
+
+.landing .heading {
+  width: 100%;
+  text-align: center;
+  height: calc(90vh - 91px);
+  line-height: calc(90vh - 91px);
+}
+.landing .heading .text {
+  display: inline-block;
+  line-height: 1.5;
+  vertical-align: middle;
+  width: 700px;
+}
+
+.landing .heading .text p {
+  color: #ffffffeb;
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+.landing .heading .text h1 {
+  color: #fff;
+  font-size: 76px !important;
+  font-weight: 400;
+}
+
+.landing .heading .text .description {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.landing .heading .text .actions button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  padding: 19px 25px;
+  cursor: pointer;
+  letter-spacing: 0px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: 0.3s ease-in-out;
+}
+
+.landing .heading .text .actions button:hover {
+  background-color: #fff;
+  color: #8e7754;
+}
+
+.landing .heading .text .actions .primary {
+  background-color: #8e7754;
+}
+
+.landing .heading .text .actions .secondary {
+  border-color: #fff;
+}
+
+/* end heading */
+
+/* end landing section  */
+
+/* start who we are */
+
+.who-we-are {
+  padding: 70px 0;
+}
+
+.who-we-are .img-container {
+  display: inline-block;
+  width: 45%;
+}
+
+.who-we-are .text {
+  float: right;
+  width: 49%;
+  height: 546px;
+  padding: 111px 0 0;
+}
+
+.who-we-are .text .heading {
+  margin-bottom: 30px;
+  padding: 0 130px 0 0;
+}
+
+.who-we-are .text .heading h2 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.who-we-are .text .heading p {
+  font-size: 16px;
+  color: #777;
+  line-height: 1.9;
+}
+
+.who-we-are .text .list li {
+  display: block;
+  height: 44px;
+  line-height: 44px;
+  margin-bottom: 20px;
+}
+
+.who-we-are .text .list li div {
+  float: left;
+  margin-right: 20px;
+}
+
+/* end who we are  */
+
+/* start our location */
+
+.our-location {
+  padding: 70px 0;
+  background: #f8f8f8;
+}
+
+.our-location .text {
+  float: left;
+  width: 45%;
+  height: 440px;
+  padding: 181px 0 0;
+}
+
+.our-location .text h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.our-location .text p {
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #686868;
+  font-weight: 400;
+  color: #686868;
+}
+
+.our-location .img-container {
+  float: right;
+  width: 49%;
+}
+
+/* end our location */
+
+/* start our baking  */
+
+.our-baking {
+  padding: 70px 0;
+}
+
+.our-baking .heading {
+  text-align: center;
+}
+
+.our-baking .heading h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.our-baking .heading p {
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #686868;
+}
+
+.our-baking .card {
+  display: inline-block;
+  width: 33.1%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.our-baking .card .img-container {
+  width: 100%;
+  height: 315px;
+  margin-bottom: 90px;
+}
+
+.our-baking .card .text {
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+
+.our-baking .card .text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.our-baking .card .text p {
+  font-size: 16px;
+  color: #777;
+  line-height: 1.9;
+}
+
+/* end our baking  */
+
+/* start contact us   */
+
+.contact-us {
+  padding: 70px 0;
+  background: #f8f8f8;
+}
+
+.contact-us .text {
+  float: left;
+  width: 45%;
+}
+
+.contact-us .text h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.contact-us .text p {
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #686868;
+}
+
+.contact-us .text .contact-details h4 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #2a2929;
+  margin-bottom: 20px;
+}
+
+.contact-us .text .contact-details li {
+  display: block;
+  height: 44px;
+  line-height: 44px;
+  margin-bottom: 20px;
+}
+
+.contact-us .text .contact-details li div {
+  float: left;
+  margin-right: 20px;
+}
+.contact-us .map {
+  float: right;
+  width: 49%;
+}
+
+/* end contact us  */
+
+/* start important links */
+
+.important-links {
+  padding: 70px 0;
+  background-color: #403d38;
+  color: #969696;
+  font-size: 16px;
+}
+
+.important-links .list {
+  margin: 0 10px 10px;
+  float: left;
+  width: 23%;
+  height: 325px;
+}
+
+.important-links .list h4 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.important-links .list p {
+  line-height: 1.86em;
+  margin-bottom: 20px;
+}
+
+.important-links .list li {
+  display: block;
+  line-height: 44px;
+  margin-bottom: 3px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.arrow {
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.link-icon {
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin-left: 10px;
+}
+
+/* end important links  */
+
+/* start footer */
+
+.footer {
+  padding: 70px 0;
+  background-color: #2d2b29;
+  text-align: center;
+}
+
+.footer .logo {
+  margin-bottom: 20px;
+}
+.footer .copy-right {
+  margin-bottom: 20px;
+}
+
+.footer p {
+  color: #777;
+  font-size: 15px;
+}
+
+.footer .social-links a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: #484540;
+}
+
+/* end footer */
